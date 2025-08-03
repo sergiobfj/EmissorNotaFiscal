@@ -10,7 +10,7 @@ driver = webdriver.Chrome(service=servico)
 
 #importar base de clientes
 tabela = pd.read_excel(r'C:\Users\smart\Desktop\emissaoNF\Arquivos\NotasEmitir.xlsx')
-print(tabela)
+
 
 #Entrar na pagina de Login
 driver.get(r'C:\Users\smart\Desktop\emissaoNF\Arquivos\login.html')
